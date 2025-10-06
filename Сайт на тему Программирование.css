@@ -57,6 +57,31 @@ header {
     height: auto;
     border-radius: 10px;
 }
+.agag{
+    border: 2px solid #323199;
+    color: white;
+    background-color: #323199;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+.agag :hover {
+    background-color: white;
+    color: #323199;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.gallery img{
+    margin-bottom: 1rem;
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
 footer {
     text-align: center;
     padding: 1rem;
